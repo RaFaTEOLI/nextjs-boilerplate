@@ -12,6 +12,13 @@ export default [
   pluginReact.configs.flat.recommended,
   reactHooks.configs.recommended,
   {
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
+  },
+  {
     rules: {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
