@@ -9,8 +9,8 @@ With this template, you get all the awesomeness you need:
 
 - 🏎️ **[Next.js](https://nextjs.org/)** - Fast by default, with config optimized for performance (with **App Directory**)
 - ✨ **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)** - For clean, consistent, and error-free code
-- **[Vitest](https://vitest.dev/)** and **[React Testing Library](https://testing-library.com/react)** - For rock-solid unit and integration tests
-- **[Conventional commits git hook](https://www.conventionalcommits.org/)** - Keep your commit history neat and tidy
+- 🧪 **[Vitest](https://vitest.dev/)** and **[React Testing Library](https://testing-library.com/react)** - For rock-solid unit and integration tests
+- 🪝 **[Conventional commits git hook](https://www.conventionalcommits.org/)** - Keep your commit history neat and tidy
 
 ## Table of Contents
 
