@@ -28,12 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <>
+      <GlobalStyles />
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable}`}>
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         </body>
       </html>
-      <GlobalStyles />
     </>
   );
 }
