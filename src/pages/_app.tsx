@@ -25,6 +25,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <Head>
           <title>{metadata.title as string}</title>
           <meta name="description" content={metadata.description as string} />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="theme-color" content="#06092b" />
         </Head>
         <GlobalStyles />
         <Component {...pageProps} />
