@@ -20,6 +20,8 @@
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^8.3.3",
+    "@storybook/react": "^8.3.3",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
