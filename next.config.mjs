@@ -3,14 +3,18 @@ import withPWA from 'next-pwa';
 
 const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig = withPWA({
-  compiler: {
-    styledComponents: true
-  },
+const pwaConfig = withPWA({
   pwa: {
     dest: 'public',
     disable: !isProd
   }
 });
+
+const nextConfig = {
+  ...pwaConfig,
+  compiler: {
+    styledComponents: true
+  }
+};
 
 export default nextConfig;
